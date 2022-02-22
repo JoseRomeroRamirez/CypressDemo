@@ -1,5 +1,5 @@
 /// <reference types="cypress"/>
-it('login test', function(){
+it('login test demo', function(){
     cy.visit('/')
     cy.get('[data-test="username"]').type("standard_user")
     cy.get('[data-test="password"]').type("secret_sauce")
