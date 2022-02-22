@@ -1,0 +1,19 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "Demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "cypress:open": "cypress open"
+  },
+  "keywords": [
+    "demo",
+    "cypress"
+  ],
+  "author": "JoseRomero",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.5.0"
+  }
+}
