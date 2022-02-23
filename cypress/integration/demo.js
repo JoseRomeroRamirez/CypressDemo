@@ -8,5 +8,5 @@ it('login test demo', function(){
     cy.get('[data-test="add-to-cart-sauce-labs-backpack"]').click()
     cy.get('.shopping_cart_link').click()
     cy.url().should('include', '/cart.html')
-    cy.get('.shopping_cart_badge').should('contain', '2')
+    cy.get('.shopping_cart_badge').should('contain', '1')
 })
