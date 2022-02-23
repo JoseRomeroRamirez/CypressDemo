@@ -1,0 +1,2 @@
+execute cypress npm run cypress:open
+excecute for dashboard npx cypress run --record --key 2da556eb-ed9d-4101-b3f0-d19df1d99e35 -b chrome
